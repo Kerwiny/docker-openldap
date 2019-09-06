@@ -12,6 +12,8 @@ objectClass: olcMemberOf
 olcOverlay: {0}memberof
 olcMemberOfDangling: ignore
 olcMemberOfRefInt: TRUE
-olcMemberOfGroupOC: groupOfUniqueNames
-olcMemberOfMemberAD: uniqueMember
+#olcMemberOfGroupOC: groupOfUniqueNames
+olcMemberOfGroupOC: groupOfNames
+#olcMemberOfMemberAD: uniqueMember
+olcMemberOfMemberAD: member
 olcMemberOfMemberOfAD: memberOf
