@@ -40,7 +40,7 @@ services:
     ports:
       - "389:389"
       - "636:636"
-    domainname: "example.org" # important: same as hostname
+    #domainname: "example.org" # important: same as hostname
     hostname: "example.org"
   phpldapadmin:
     image: osixia/phpldapadmin:latest
